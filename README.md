@@ -36,7 +36,7 @@ python train_conv_snndirect_wave.py --arch shuffle
 ## About Quantization-Aware Training (QAT)
 We also provide ``quantization-aware training``.
 
-To enable quantization, set ``QUANTIZATION_FLAG`` to ``True``.
+To enable quantization, set ``QUANTIZATION_FLAG`` to ``True`` in ``models/model_snndirect`` or ``models/model_wave``.
 
 
 
